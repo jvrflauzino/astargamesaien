@@ -1,0 +1,8 @@
+# Dimension 3 4
+# Caso 1 (Moderado): Tabuleiro 3x4 (12 macas, soma = 60, 6 jogadas)
+# Demonstra a diferenca entre a busca por custo uniforme de passos (BFS/DFS -> custo de area 18)
+# e a busca informada por area minima (A* -> custo de area 14, com jogada oculta na linha 2).
+3 4
+2 5 5 8
+8 3 6 2
+1 7 4 9
