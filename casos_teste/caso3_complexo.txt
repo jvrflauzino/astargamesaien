@@ -1,0 +1,10 @@
+# Dimension 5 6
+# Caso 3 (Complexo): Tabuleiro 5x6 (30 macas, soma = 140, 14 jogadas)
+# Alto fator de ramificacao (~135.800 estados em largura). O A* poda mais de 72% do espaco
+# de busca (37.201 nos expandidos) e encontra a solucao otima de area minima (custo 31 vs 35 da BFS/DFS).
+5 6
+2 5 5 8 3 7
+8 4 6 2 7 3
+2 5 5 8 4 7
+8 3 5 2 6 3
+1 2 9 2 3 5
